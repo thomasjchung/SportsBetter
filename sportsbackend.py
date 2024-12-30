@@ -8,6 +8,7 @@ sports_url = "https://api.the-odds-api.com/v4/sports"
 sports_params = {
     "apiKey": API_KEY
 }
+sports_file = "sports_data.json"
 
 def getSports():
     try:
@@ -20,6 +21,10 @@ def getSports():
 
         if response.status_code == 200:
             sports_data = response.json()
+
+            # Save the JSON data to a file
+            with open(sports_file, "w") as file:
+                json.dump(sports_data, file, indent=4)
 
             print("Available Sports:")
             for sport in sports_data:
@@ -82,3 +87,45 @@ def getOdds():
     except requests.exceptions.RequestException as e:
         print("An error occurred while making the API request:", e)
 
+def find_best_odds():
+    with open("odds_data.json", "r") as file:
+        data = json.load(file)
+
+    best_odds = {}
+
+    for game in data:
+        for bookmaker in game['bookmakers']:
+            for market in bookmaker['markets']:
+                for outcome in market['outcomes']:
+                    name = outcome['name']
+                    price = outcome['price']
+
+                    if name not in best_odds or price > best_odds[name]:
+                        best_odds[name] = price
+
+    return best_odds
+
+def calculate_arbitrage(best_odds):
+    with open("odds_data.json", "r") as file:
+        data = json.load(file)
+
+    for game in data:
+        implied_probabilities = []
+
+        home_team = game['home_team']
+        away_team = game['away_team']
+
+        implied_probabilities.append(1 / best_odds[home_team])
+        implied_probabilities.append(1 / best_odds[away_team])
+        
+        total_implied_probability = sum(implied_probabilities)
+
+        if (total_implied_probability < 1):
+            print(f"Arbitrage Opportunity Found between {home_team} and {away_team}!")
+        else:
+            print("No Arbitrage Opportunity")
+    
+# best_odds = dictionary for best odds for every team 
+# best_odds = find_best_odds()
+# calculate_arbitrage(best_odds)
+getSports()
