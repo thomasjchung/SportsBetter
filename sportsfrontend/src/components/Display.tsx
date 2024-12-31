@@ -25,6 +25,10 @@ type ArbitrageData = {
   total_profit: number[];
   home_bookmakers: string[];
   away_bookmakers: string[];
+  rounded_min_p: number[];
+  rounded_max_p: number[];
+  rounded_home: number[];
+  rounded_away: number[];
 };
 
 export const Display = () => {
@@ -33,8 +37,12 @@ export const Display = () => {
   const [arbitrageData, setArbitrageData] = useState<
     ArbitrageData | string | null
   >(null);
-
   const [stakeValue, setStakeValue] = useState("");
+  const [clickedIndexes, setClickedIndexes] = useState<number[]>([]); // Track clicked indexes
+
+  const handleRoundClick = (index: number) => {
+    setClickedIndexes((prev) => [...prev, index]); // Mark the index as clicked
+  };
 
   const fetchArbitrageData = async () => {
     if (!sportValue) {
@@ -168,7 +176,7 @@ export const Display = () => {
           _placeholder={{ color: "white" }}
           color="black"
         />
-        <Button color="black" onClick={fetchArbitrageData} disabled={loading}>
+        <Button color="white" onClick={fetchArbitrageData} disabled={loading}>
           {loading ? "Loading..." : "Submit!"}
         </Button>
       </HStack>
@@ -185,14 +193,31 @@ export const Display = () => {
                 Arbitrage Opportunities with stake {stakeValue}:
               </Heading>
               {arbitrageData.home_teams.map((homeTeam, index) => (
-                <Text key={index}>
-                  {homeTeam} ({arbitrageData.home_bookmakers[index]}-
-                  {arbitrageData.home_bets[index]}) vs{" "}
-                  {arbitrageData.away_teams[index]} (
-                  {arbitrageData.away_bookmakers[index]}-
-                  {arbitrageData.away_bets[index]}) -- Total Profit = (
-                  {arbitrageData.total_profit[index]})
-                </Text>
+                <Box key={index} mt="2">
+                  <Text>
+                    {homeTeam} ({arbitrageData.home_bookmakers[index]}-
+                    {arbitrageData.home_bets[index]}) vs{" "}
+                    {arbitrageData.away_teams[index]} (
+                    {arbitrageData.away_bookmakers[index]}-
+                    {arbitrageData.away_bets[index]}) -- Total Profit = (
+                    {arbitrageData.total_profit[index]})
+                  </Text>
+                  {!clickedIndexes.includes(index) ? (
+                    <Button
+                      padding="1"
+                      size="sm"
+                      color="pink"
+                      onClick={() => handleRoundClick(index)}
+                    >
+                      Round!
+                    </Button>
+                  ) : (
+                    <Text>
+                      Rounded Min Profit: {arbitrageData.rounded_min_p[index]} |{" "}
+                      Rounded Max Profit: {arbitrageData.rounded_max_p[index]}
+                    </Text>
+                  )}
+                </Box>
               ))}
             </Box>
           )}

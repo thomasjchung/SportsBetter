@@ -67,6 +67,11 @@ def find_best_odds(stake):
 
     total_profit = []
 
+    rounded_home = []
+    rounded_away = []
+    rounded_min_profit = []
+    rounded_max_profit = []
+
     for game in data:
         home_team = game['home_team']
         away_team = game['away_team']
@@ -86,7 +91,7 @@ def find_best_odds(stake):
             print(f"Skipping game: {home_team} vs {away_team} (no odds available)")
             continue
 
-        total_implied_probability = (1 / best_odds[home_team]) + (1/best_odds[away_team])
+        total_implied_probability = (1/best_odds[home_team]) + (1/best_odds[away_team])
 
         if (total_implied_probability < 1):
             home_arbitrage.append(home_team)
@@ -100,10 +105,24 @@ def find_best_odds(stake):
             home_bets.append((stake * (1/best_odds[home_team])) / total_implied_probability)
             away_bets.append((stake * (1/best_odds[away_team])) / total_implied_probability)
 
+            rounded_home_bet = round(home_bets[-1])
+            rounded_away_bet = round(away_bets[-1])
+
+            if (rounded_home_bet * best_odds[home_team]) > stake and (rounded_away_bet * best_odds[away_team]) > stake:
+                rounded_min_profit.append(min((rounded_home_bet * best_odds[home_team]), (rounded_away_bet * best_odds[away_team])))
+                rounded_max_profit.append(max((rounded_home_bet * best_odds[home_team]), (rounded_away_bet * best_odds[away_team])))
+                rounded_home.append(rounded_home_bet)
+                rounded_away.append(rounded_away_bet)
+            else:
+                rounded_min_profit.append(0)
+                rounded_max_profit.append(0)
+                rounded_home.append(0)
+                rounded_away.append(0)
+
         best_odds[home_team] = 0
         best_odds[away_team] = 0
 
-    return home_arbitrage, away_arbitrage, home_bets, away_bets, total_profit, home_bookmaker, away_bookmaker
+    return home_arbitrage, away_arbitrage, home_bets, away_bets, total_profit, home_bookmaker, away_bookmaker, rounded_min_profit, rounded_max_profit, rounded_away, rounded_home
 
 
 @app.route('/api/odds', methods=['GET'])
@@ -138,7 +157,7 @@ def getOdds():
             with open(odds_file, "w") as file:
                 json.dump(odds_data, file, indent=4)
             
-            home_arbitrage, away_arbitrage, home_bets, away_bets, total_profit, home_bookmaker, away_bookmaker = find_best_odds(stake)
+            home_arbitrage, away_arbitrage, home_bets, away_bets, total_profit, home_bookmaker, away_bookmaker, rounded_min_profit, rounded_max_profit, rounded_away, rounded_home = find_best_odds(stake)
 
             if home_arbitrage:
                 return jsonify({
@@ -148,7 +167,11 @@ def getOdds():
                     "away_bets": away_bets,
                     "total_profit": total_profit,
                     "home_bookmakers": home_bookmaker,
-                    "away_bookmakers": away_bookmaker
+                    "away_bookmakers": away_bookmaker,
+                    "rounded_min_p": rounded_min_profit,
+                    "rounded_max_p": rounded_max_profit,
+                    "rounded_home": rounded_home,
+                    "rounded_away": rounded_away
                 })
             else:
                 return jsonify({
