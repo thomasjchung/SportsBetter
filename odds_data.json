@@ -1,1 +1,3199 @@
-"sports_data.json"
+[
+    {
+        "id": "6f9c91b8497f7a2411acc42348762031",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T17:00:00Z",
+        "home_team": "Virginia Cavaliers",
+        "away_team": "NC State Wolfpack",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 1.96
+                            },
+                            {
+                                "name": "Virginia Cavaliers",
+                                "price": 1.87
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 1.94
+                            },
+                            {
+                                "name": "Virginia Cavaliers",
+                                "price": 1.87
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 1.93
+                            },
+                            {
+                                "name": "Virginia Cavaliers",
+                                "price": 1.89
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 1.95
+                            },
+                            {
+                                "name": "Virginia Cavaliers",
+                                "price": 1.87
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "NC State Wolfpack",
+                                "price": 1.97
+                            },
+                            {
+                                "name": "Virginia Cavaliers",
+                                "price": 1.83
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4d07fbcce939bfc36eadf5d60eda4af2",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Baylor Bears",
+        "away_team": "Utah Utes",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Baylor Bears",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "Utah Utes",
+                                "price": 6.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Baylor Bears",
+                                "price": 1.16
+                            },
+                            {
+                                "name": "Utah Utes",
+                                "price": 5.26
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Baylor Bears",
+                                "price": 1.15
+                            },
+                            {
+                                "name": "Utah Utes",
+                                "price": 5.7
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Baylor Bears",
+                                "price": 1.15
+                            },
+                            {
+                                "name": "Utah Utes",
+                                "price": 5.75
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Baylor Bears",
+                                "price": 1.15
+                            },
+                            {
+                                "name": "Utah Utes",
+                                "price": 5.6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b896560783de71655fd6bbbbb08e6bbf",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Kentucky Wildcats",
+        "away_team": "Brown Bears",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Brown Bears",
+                                "price": 25.0
+                            },
+                            {
+                                "name": "Kentucky Wildcats",
+                                "price": 1.01
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Brown Bears",
+                                "price": 23.0
+                            },
+                            {
+                                "name": "Kentucky Wildcats",
+                                "price": 1.01
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6e17ded794262343129bbda88e46e7c0",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Charlotte 49ers",
+        "away_team": "Tulane Green Wave",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte 49ers",
+                                "price": 1.68
+                            },
+                            {
+                                "name": "Tulane Green Wave",
+                                "price": 2.22
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte 49ers",
+                                "price": 1.67
+                            },
+                            {
+                                "name": "Tulane Green Wave",
+                                "price": 2.22
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte 49ers",
+                                "price": 1.7
+                            },
+                            {
+                                "name": "Tulane Green Wave",
+                                "price": 2.2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte 49ers",
+                                "price": 1.69
+                            },
+                            {
+                                "name": "Tulane Green Wave",
+                                "price": 2.2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Charlotte 49ers",
+                                "price": 1.7
+                            },
+                            {
+                                "name": "Tulane Green Wave",
+                                "price": 2.17
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b93cde2c2104fd2f65b341cfd391cea6",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "George Mason Patriots",
+        "away_team": "Davidson Wildcats",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Davidson Wildcats",
+                                "price": 3.25
+                            },
+                            {
+                                "name": "George Mason Patriots",
+                                "price": 1.36
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Davidson Wildcats",
+                                "price": 3.24
+                            },
+                            {
+                                "name": "George Mason Patriots",
+                                "price": 1.35
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Davidson Wildcats",
+                                "price": 3.2
+                            },
+                            {
+                                "name": "George Mason Patriots",
+                                "price": 1.37
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Davidson Wildcats",
+                                "price": 3.2
+                            },
+                            {
+                                "name": "George Mason Patriots",
+                                "price": 1.36
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Davidson Wildcats",
+                                "price": 3.3
+                            },
+                            {
+                                "name": "George Mason Patriots",
+                                "price": 1.34
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5932526912f81fbef18fb5850cdef991",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Dayton Flyers",
+        "away_team": "La Salle Explorers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Dayton Flyers",
+                                "price": 1.03
+                            },
+                            {
+                                "name": "La Salle Explorers",
+                                "price": 13.8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Dayton Flyers",
+                                "price": 1.04
+                            },
+                            {
+                                "name": "La Salle Explorers",
+                                "price": 11.09
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Dayton Flyers",
+                                "price": 1.06
+                            },
+                            {
+                                "name": "La Salle Explorers",
+                                "price": 10.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Dayton Flyers",
+                                "price": 1.05
+                            },
+                            {
+                                "name": "La Salle Explorers",
+                                "price": 10.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Dayton Flyers",
+                                "price": 1.03
+                            },
+                            {
+                                "name": "La Salle Explorers",
+                                "price": 12.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "3dd4acf679b6335ab1ea4d9091dbb8eb",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Duquesne Dukes",
+        "away_team": "Rhode Island Rams",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Duquesne Dukes",
+                                "price": 2.28
+                            },
+                            {
+                                "name": "Rhode Island Rams",
+                                "price": 1.65
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Duquesne Dukes",
+                                "price": 2.27
+                            },
+                            {
+                                "name": "Rhode Island Rams",
+                                "price": 1.64
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Duquesne Dukes",
+                                "price": 2.3
+                            },
+                            {
+                                "name": "Rhode Island Rams",
+                                "price": 1.65
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Duquesne Dukes",
+                                "price": 2.2
+                            },
+                            {
+                                "name": "Rhode Island Rams",
+                                "price": 1.69
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Duquesne Dukes",
+                                "price": 2.35
+                            },
+                            {
+                                "name": "Rhode Island Rams",
+                                "price": 1.61
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "b5c040bcc86cd12b575136a0ec55f2b0",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Fordham Rams",
+        "away_team": "Saint Louis Billikens",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Fordham Rams",
+                                "price": 1.94
+                            },
+                            {
+                                "name": "Saint Louis Billikens",
+                                "price": 1.88
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Fordham Rams",
+                                "price": 1.99
+                            },
+                            {
+                                "name": "Saint Louis Billikens",
+                                "price": 1.83
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Fordham Rams",
+                                "price": 2.0
+                            },
+                            {
+                                "name": "Saint Louis Billikens",
+                                "price": 1.83
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Fordham Rams",
+                                "price": 1.91
+                            },
+                            {
+                                "name": "Saint Louis Billikens",
+                                "price": 1.91
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Fordham Rams",
+                                "price": 1.95
+                            },
+                            {
+                                "name": "Saint Louis Billikens",
+                                "price": 1.87
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "0aad097e9329e5897e23c60e536b888d",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Kansas Jayhawks",
+        "away_team": "West Virginia Mountaineers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Kansas Jayhawks",
+                                "price": 1.1
+                            },
+                            {
+                                "name": "West Virginia Mountaineers",
+                                "price": 7.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Kansas Jayhawks",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "West Virginia Mountaineers",
+                                "price": 6.49
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Kansas Jayhawks",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "West Virginia Mountaineers",
+                                "price": 6.75
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Kansas Jayhawks",
+                                "price": 1.11
+                            },
+                            {
+                                "name": "West Virginia Mountaineers",
+                                "price": 6.75
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Kansas Jayhawks",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "West Virginia Mountaineers",
+                                "price": 6.4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "929b71c0efa21a92db00c2206961c105",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Saint Joseph's Hawks",
+        "away_team": "Massachusetts Minutemen",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Massachusetts Minutemen",
+                                "price": 5.2
+                            },
+                            {
+                                "name": "Saint Joseph's Hawks",
+                                "price": 1.17
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Massachusetts Minutemen",
+                                "price": 4.54
+                            },
+                            {
+                                "name": "Saint Joseph's Hawks",
+                                "price": 1.21
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Massachusetts Minutemen",
+                                "price": 4.6
+                            },
+                            {
+                                "name": "Saint Joseph's Hawks",
+                                "price": 1.21
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Massachusetts Minutemen",
+                                "price": 4.75
+                            },
+                            {
+                                "name": "Saint Joseph's Hawks",
+                                "price": 1.2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Massachusetts Minutemen",
+                                "price": 4.6
+                            },
+                            {
+                                "name": "Saint Joseph's Hawks",
+                                "price": 1.2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "59e233d93bf82c7696f77580eb8735ea",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Xavier Musketeers",
+        "away_team": "Seton Hall Pirates",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Seton Hall Pirates",
+                                "price": 4.65
+                            },
+                            {
+                                "name": "Xavier Musketeers",
+                                "price": 1.2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Seton Hall Pirates",
+                                "price": 4.17
+                            },
+                            {
+                                "name": "Xavier Musketeers",
+                                "price": 1.23
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Seton Hall Pirates",
+                                "price": 4.5
+                            },
+                            {
+                                "name": "Xavier Musketeers",
+                                "price": 1.22
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Seton Hall Pirates",
+                                "price": 4.4
+                            },
+                            {
+                                "name": "Xavier Musketeers",
+                                "price": 1.22
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Seton Hall Pirates",
+                                "price": 4.35
+                            },
+                            {
+                                "name": "Xavier Musketeers",
+                                "price": 1.22
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "16aa23407d465a5bd8edaeaa19018ff7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "St. Bonaventure Bonnies",
+        "away_team": "VCU Rams",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "St. Bonaventure Bonnies",
+                                "price": 2.18
+                            },
+                            {
+                                "name": "VCU Rams",
+                                "price": 1.7
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "St. Bonaventure Bonnies",
+                                "price": 2.2
+                            },
+                            {
+                                "name": "VCU Rams",
+                                "price": 1.68
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "St. Bonaventure Bonnies",
+                                "price": 2.14
+                            },
+                            {
+                                "name": "VCU Rams",
+                                "price": 1.74
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "St. Bonaventure Bonnies",
+                                "price": 2.15
+                            },
+                            {
+                                "name": "VCU Rams",
+                                "price": 1.71
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "St. Bonaventure Bonnies",
+                                "price": 2.17
+                            },
+                            {
+                                "name": "VCU Rams",
+                                "price": 1.68
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7bf968c257f495d1a4dae874b2add1dc",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Syracuse Orange",
+        "away_team": "Wake Forest Demon Deacons",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Syracuse Orange",
+                                "price": 2.05
+                            },
+                            {
+                                "name": "Wake Forest Demon Deacons",
+                                "price": 1.79
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Syracuse Orange",
+                                "price": 2.08
+                            },
+                            {
+                                "name": "Wake Forest Demon Deacons",
+                                "price": 1.76
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Syracuse Orange",
+                                "price": 2.14
+                            },
+                            {
+                                "name": "Wake Forest Demon Deacons",
+                                "price": 1.74
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Syracuse Orange",
+                                "price": 2.15
+                            },
+                            {
+                                "name": "Wake Forest Demon Deacons",
+                                "price": 1.71
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Syracuse Orange",
+                                "price": 2.04
+                            },
+                            {
+                                "name": "Wake Forest Demon Deacons",
+                                "price": 1.8
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "1c2194d0377b9473543ff4dad64153f1",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:00:00Z",
+        "home_team": "Texas Tech Red Raiders",
+        "away_team": "UCF Knights",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Texas Tech Red Raiders",
+                                "price": 1.1
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": 7.6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Texas Tech Red Raiders",
+                                "price": 1.11
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": 6.6
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Texas Tech Red Raiders",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": 6.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Texas Tech Red Raiders",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": 6.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Texas Tech Red Raiders",
+                                "price": 1.12
+                            },
+                            {
+                                "name": "UCF Knights",
+                                "price": 6.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7babad089501e7e396340e70f5cbbc54",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T19:30:00Z",
+        "home_team": "Georgia Tech Yellow Jackets",
+        "away_team": "Notre Dame Fighting Irish",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Georgia Tech Yellow Jackets",
+                                "price": 1.85
+                            },
+                            {
+                                "name": "Notre Dame Fighting Irish",
+                                "price": 1.98
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Georgia Tech Yellow Jackets",
+                                "price": 1.81
+                            },
+                            {
+                                "name": "Notre Dame Fighting Irish",
+                                "price": 2.01
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Georgia Tech Yellow Jackets",
+                                "price": 1.82
+                            },
+                            {
+                                "name": "Notre Dame Fighting Irish",
+                                "price": 2.02
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Georgia Tech Yellow Jackets",
+                                "price": 1.83
+                            },
+                            {
+                                "name": "Notre Dame Fighting Irish",
+                                "price": 2.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Georgia Tech Yellow Jackets",
+                                "price": 1.85
+                            },
+                            {
+                                "name": "Notre Dame Fighting Irish",
+                                "price": 1.97
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "da2620595991203c576455ca1b4b3bbc",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T20:00:00Z",
+        "home_team": "South Florida Bulls",
+        "away_team": "East Carolina Pirates",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "East Carolina Pirates",
+                                "price": 2.1
+                            },
+                            {
+                                "name": "South Florida Bulls",
+                                "price": 1.76
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "East Carolina Pirates",
+                                "price": 2.03
+                            },
+                            {
+                                "name": "South Florida Bulls",
+                                "price": 1.8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "East Carolina Pirates",
+                                "price": 2.2
+                            },
+                            {
+                                "name": "South Florida Bulls",
+                                "price": 1.7
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "East Carolina Pirates",
+                                "price": 2.1
+                            },
+                            {
+                                "name": "South Florida Bulls",
+                                "price": 1.74
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "East Carolina Pirates",
+                                "price": 2.28
+                            },
+                            {
+                                "name": "South Florida Bulls",
+                                "price": 1.65
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5b2adad575f9c37f032efacf1857a47e",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T20:00:00Z",
+        "home_team": "Tennessee Volunteers",
+        "away_team": "Norfolk St Spartans",
+        "bookmakers": []
+    },
+    {
+        "id": "80b463f88b669e1c31141556e5e554ad",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:00:00Z",
+        "home_team": "Abilene Christian Wildcats",
+        "away_team": "Stephen F. Austin Lumberjacks",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Abilene Christian Wildcats",
+                                "price": 1.65
+                            },
+                            {
+                                "name": "Stephen F. Austin Lumberjacks",
+                                "price": 2.28
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Abilene Christian Wildcats",
+                                "price": 1.6
+                            },
+                            {
+                                "name": "Stephen F. Austin Lumberjacks",
+                                "price": 2.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Abilene Christian Wildcats",
+                                "price": 1.56
+                            },
+                            {
+                                "name": "Stephen F. Austin Lumberjacks",
+                                "price": 2.25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Abilene Christian Wildcats",
+                                "price": 1.64
+                            },
+                            {
+                                "name": "Stephen F. Austin Lumberjacks",
+                                "price": 2.3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "e1abd317dd501a9a6fe318bb1f291ca7",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:00:00Z",
+        "home_team": "Air Force Falcons",
+        "away_team": "UNLV Rebels",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Air Force Falcons",
+                                "price": 3.75
+                            },
+                            {
+                                "name": "UNLV Rebels",
+                                "price": 1.29
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Air Force Falcons",
+                                "price": 3.71
+                            },
+                            {
+                                "name": "UNLV Rebels",
+                                "price": 1.28
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Air Force Falcons",
+                                "price": 4.1
+                            },
+                            {
+                                "name": "UNLV Rebels",
+                                "price": 1.25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Air Force Falcons",
+                                "price": 3.6
+                            },
+                            {
+                                "name": "UNLV Rebels",
+                                "price": 1.29
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Air Force Falcons",
+                                "price": 3.75
+                            },
+                            {
+                                "name": "UNLV Rebels",
+                                "price": 1.27
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "83c25d813efef3be2737032197d44f7b",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:00:00Z",
+        "home_team": "BYU Cougars",
+        "away_team": "Arizona St Sun Devils",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona St Sun Devils",
+                                "price": 5.0
+                            },
+                            {
+                                "name": "BYU Cougars",
+                                "price": 1.18
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona St Sun Devils",
+                                "price": 4.45
+                            },
+                            {
+                                "name": "BYU Cougars",
+                                "price": 1.21
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona St Sun Devils",
+                                "price": 4.6
+                            },
+                            {
+                                "name": "BYU Cougars",
+                                "price": 1.21
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona St Sun Devils",
+                                "price": 4.75
+                            },
+                            {
+                                "name": "BYU Cougars",
+                                "price": 1.2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Arizona St Sun Devils",
+                                "price": 4.5
+                            },
+                            {
+                                "name": "BYU Cougars",
+                                "price": 1.21
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "10f2725925b276ca032c8485f06ba74e",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:00:00Z",
+        "home_team": "Creighton Bluejays",
+        "away_team": "St. John's Red Storm",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Creighton Bluejays",
+                                "price": 2.05
+                            },
+                            {
+                                "name": "St. John's Red Storm",
+                                "price": 1.79
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Creighton Bluejays",
+                                "price": 2.02
+                            },
+                            {
+                                "name": "St. John's Red Storm",
+                                "price": 1.8
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Creighton Bluejays",
+                                "price": 2.0
+                            },
+                            {
+                                "name": "St. John's Red Storm",
+                                "price": 1.83
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Creighton Bluejays",
+                                "price": 2.0
+                            },
+                            {
+                                "name": "St. John's Red Storm",
+                                "price": 1.83
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Creighton Bluejays",
+                                "price": 2.05
+                            },
+                            {
+                                "name": "St. John's Red Storm",
+                                "price": 1.77
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "c0610a62493a480da4c59eb8a8d3a95c",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:00:00Z",
+        "home_team": "Richmond Spiders",
+        "away_team": "GW Revolutionaries",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "GW Revolutionaries",
+                                "price": 1.62
+                            },
+                            {
+                                "name": "Richmond Spiders",
+                                "price": 2.34
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "GW Revolutionaries",
+                                "price": 1.58
+                            },
+                            {
+                                "name": "Richmond Spiders",
+                                "price": 2.39
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "GW Revolutionaries",
+                                "price": 1.59
+                            },
+                            {
+                                "name": "Richmond Spiders",
+                                "price": 2.42
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "GW Revolutionaries",
+                                "price": 1.61
+                            },
+                            {
+                                "name": "Richmond Spiders",
+                                "price": 2.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "GW Revolutionaries",
+                                "price": 1.6
+                            },
+                            {
+                                "name": "Richmond Spiders",
+                                "price": 2.35
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "d616ff8c82cc38690255157307abd892",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:00:00Z",
+        "home_team": "North Texas Mean Green",
+        "away_team": "UAB Blazers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "North Texas Mean Green",
+                                "price": 1.43
+                            },
+                            {
+                                "name": "UAB Blazers",
+                                "price": 2.9
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "North Texas Mean Green",
+                                "price": 1.43
+                            },
+                            {
+                                "name": "UAB Blazers",
+                                "price": 2.84
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "North Texas Mean Green",
+                                "price": 1.43
+                            },
+                            {
+                                "name": "UAB Blazers",
+                                "price": 2.9
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "North Texas Mean Green",
+                                "price": 1.44
+                            },
+                            {
+                                "name": "UAB Blazers",
+                                "price": 2.85
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "North Texas Mean Green",
+                                "price": 1.47
+                            },
+                            {
+                                "name": "UAB Blazers",
+                                "price": 2.75
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "01ad5e71169446e7c0e56dba9c352414",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T21:30:00Z",
+        "home_team": "Duke Blue Devils",
+        "away_team": "Virginia Tech Hokies",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Duke Blue Devils",
+                                "price": 1.01
+                            },
+                            {
+                                "name": "Virginia Tech Hokies",
+                                "price": 31.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Duke Blue Devils",
+                                "price": 1.01
+                            },
+                            {
+                                "name": "Virginia Tech Hokies",
+                                "price": 31.0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "765117b704a5a7018a79d99e579d3950",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T22:00:00Z",
+        "home_team": "San Jos\u00e9 St Spartans",
+        "away_team": "Colorado St Rams",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Colorado St Rams",
+                                "price": 1.59
+                            },
+                            {
+                                "name": "San Jos\u00e9 St Spartans",
+                                "price": 2.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Colorado St Rams",
+                                "price": 1.59
+                            },
+                            {
+                                "name": "San Jos\u00e9 St Spartans",
+                                "price": 2.37
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Colorado St Rams",
+                                "price": 1.6
+                            },
+                            {
+                                "name": "San Jos\u00e9 St Spartans",
+                                "price": 2.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Colorado St Rams",
+                                "price": 1.61
+                            },
+                            {
+                                "name": "San Jos\u00e9 St Spartans",
+                                "price": 2.35
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Colorado St Rams",
+                                "price": 1.6
+                            },
+                            {
+                                "name": "San Jos\u00e9 St Spartans",
+                                "price": 2.38
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "f4d2165abce76e955542280feafcefa8",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2024-12-31T23:00:00Z",
+        "home_team": "Providence Friars",
+        "away_team": "Marquette Golden Eagles",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Marquette Golden Eagles",
+                                "price": 1.43
+                            },
+                            {
+                                "name": "Providence Friars",
+                                "price": 2.88
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Marquette Golden Eagles",
+                                "price": 1.38
+                            },
+                            {
+                                "name": "Providence Friars",
+                                "price": 3.06
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Marquette Golden Eagles",
+                                "price": 1.39
+                            },
+                            {
+                                "name": "Providence Friars",
+                                "price": 3.1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Marquette Golden Eagles",
+                                "price": 1.4
+                            },
+                            {
+                                "name": "Providence Friars",
+                                "price": 3.0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Marquette Golden Eagles",
+                                "price": 1.35
+                            },
+                            {
+                                "name": "Providence Friars",
+                                "price": 3.15
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "dbccc287412156287c7db63490437944",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-01T01:00:00Z",
+        "home_team": "Fresno St Bulldogs",
+        "away_team": "New Mexico Lobos",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Fresno St Bulldogs",
+                                "price": 9.6
+                            },
+                            {
+                                "name": "New Mexico Lobos",
+                                "price": 1.06
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Fresno St Bulldogs",
+                                "price": 8.31
+                            },
+                            {
+                                "name": "New Mexico Lobos",
+                                "price": 1.06
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Fresno St Bulldogs",
+                                "price": 9.0
+                            },
+                            {
+                                "name": "New Mexico Lobos",
+                                "price": 1.07
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Fresno St Bulldogs",
+                                "price": 9.0
+                            },
+                            {
+                                "name": "New Mexico Lobos",
+                                "price": 1.07
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Fresno St Bulldogs",
+                                "price": 8.5
+                            },
+                            {
+                                "name": "New Mexico Lobos",
+                                "price": 1.07
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ff987ccca3c6d5a55458ac5b415ed153",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-01T01:30:00Z",
+        "home_team": "Wyoming Cowboys",
+        "away_team": "Boise State Broncos",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Boise State Broncos",
+                                "price": 1.36
+                            },
+                            {
+                                "name": "Wyoming Cowboys",
+                                "price": 3.2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Boise State Broncos",
+                                "price": 1.32
+                            },
+                            {
+                                "name": "Wyoming Cowboys",
+                                "price": 3.29
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Boise State Broncos",
+                                "price": 1.35
+                            },
+                            {
+                                "name": "Wyoming Cowboys",
+                                "price": 3.3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Boise State Broncos",
+                                "price": 1.36
+                            },
+                            {
+                                "name": "Wyoming Cowboys",
+                                "price": 3.25
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Boise State Broncos",
+                                "price": 1.36
+                            },
+                            {
+                                "name": "Wyoming Cowboys",
+                                "price": 3.05
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4e15a5d50d681eb35bcbd47b7d5490a0",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-01T01:30:00Z",
+        "home_team": "Southern Indiana Screaming Eagles",
+        "away_team": "Morehead St Eagles",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Morehead St Eagles",
+                                "price": 1.88
+                            },
+                            {
+                                "name": "Southern Indiana Screaming Eagles",
+                                "price": 1.95
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Morehead St Eagles",
+                                "price": 1.86
+                            },
+                            {
+                                "name": "Southern Indiana Screaming Eagles",
+                                "price": 1.92
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Morehead St Eagles",
+                                "price": 1.87
+                            },
+                            {
+                                "name": "Southern Indiana Screaming Eagles",
+                                "price": 1.95
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Morehead St Eagles",
+                                "price": 1.91
+                            },
+                            {
+                                "name": "Southern Indiana Screaming Eagles",
+                                "price": 1.91
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Morehead St Eagles",
+                                "price": 1.91
+                            },
+                            {
+                                "name": "Southern Indiana Screaming Eagles",
+                                "price": 1.91
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "46baa257755dadce122197cbdb57e009",
+        "sport_key": "basketball_ncaab",
+        "sport_title": "NCAAB",
+        "commence_time": "2025-01-01T03:00:00Z",
+        "home_team": "Nevada Wolf Pack",
+        "away_team": "Utah State Aggies",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2024-12-31T07:01:04Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:04Z",
+                        "outcomes": [
+                            {
+                                "name": "Nevada Wolf Pack",
+                                "price": 1.64
+                            },
+                            {
+                                "name": "Utah State Aggies",
+                                "price": 2.3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mybookieag",
+                "title": "MyBookie.ag",
+                "last_update": "2024-12-31T07:01:06Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:06Z",
+                        "outcomes": [
+                            {
+                                "name": "Nevada Wolf Pack",
+                                "price": 1.64
+                            },
+                            {
+                                "name": "Utah State Aggies",
+                                "price": 2.22
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2024-12-31T07:01:49Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:49Z",
+                        "outcomes": [
+                            {
+                                "name": "Nevada Wolf Pack",
+                                "price": 1.6
+                            },
+                            {
+                                "name": "Utah State Aggies",
+                                "price": 2.4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betmgm",
+                "title": "BetMGM",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Nevada Wolf Pack",
+                                "price": 1.61
+                            },
+                            {
+                                "name": "Utah State Aggies",
+                                "price": 2.35
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2024-12-31T07:01:59Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2024-12-31T07:01:59Z",
+                        "outcomes": [
+                            {
+                                "name": "Nevada Wolf Pack",
+                                "price": 1.68
+                            },
+                            {
+                                "name": "Utah State Aggies",
+                                "price": 2.2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
